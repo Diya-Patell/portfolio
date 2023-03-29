@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/edc3ca63c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="logo.png" class="logo"> -->
+                <div class="logo">
+                    <h1>Port<span>folio.</span></h1>
+                </div>
+
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Project</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <pre><p>Hello, I'm</p></pre>
+                <h1><span>Diya</span> Patel</h1>
+                <p>And I'm a Developer.</p>
+            </div>
+
+            <button class="btn">Connect</button>
+
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dp.png" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello!! I am diya and i am a CSE student at government engineering college, Modasa.
+                        My interests include web design and development, artificial intelligence, app development. I
+                        have lot of passion to design amazing websites and I believe I have the type of knowledge to
+                        succeed in web designing.Apart from coding, I love to listen music, travel, photoshoot, art and
+                        craft. I'm always seeking for new knowledge and experiences to broaden my perspective and enhance my skills. Thanks for
+                        taking the time to learn a little about me!!!</p>
+                    <!-- <p>Hello!! I am diya and i am a CSE student at government engineering college, Modasa.</p>
+                    <p>My interests include web design and development, artificial intelligence, app development. I have lot of passion to design amazing websites and I believe I have the type of knowledge to succeed in web designing.</p>
+                    <p> Apart from coding, I love to listen music, travel, photoshoot, art and craft. I'm always seeking for new knowledge and experiences to broaden my perspective and enhance my skills.</p>
+                    
+                    <p>Thanks for taking the time to learn a little about me!!!</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title-project">Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Develop projects using html, css, javascript. I develop different projects like weather api,
+                        calculator, model agency etc.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX design</h2>
+                    <p> UX design is all about identifying and solving user problems; UI design is all about creating
+                        intuitive, aesthetically-pleasing, interactive interfaces.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p> App design combines the user interface (UI) and user experience (UX). While UI lends itself to
+                        the overall style of the app, UX focuses on the actual functionality and usability.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- skills -->
+    <div id="skills">
+        <max-width>
+            <h2 class="sub-title-skills">My skills</h2>
+            <div class="skills-content">
+                <!-- <div class="column-left">
+                    <div class="text">My creative skills & experience</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ad amet vitae delectus laborum
+                        nostrum, sed facere officiis nisi deserunt magni dicta odio facilis impedit maxime id quia
+                        ipsum. Ex!</p>
+                </div> -->
+                <!-- <div class="column-right"> -->
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Javascript</span>
+                        <span>20%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Java</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line java"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>C/C++</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line c"></div>
+                </div>
+
+            </div>
+    </div>
+    </max-width>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title-contact">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>diyaapokar@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>8320991517</p>
+                    <p><i class="fa-solid fa-location-dot"></i>Khedbrahma,Gujarat</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkdln.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume (1).docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> diya2306<span><i class="fa-solid fa-heart"></i></span>
+            </p>
+        </div>
+    </div>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
